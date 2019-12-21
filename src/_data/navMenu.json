@@ -1,11 +1,11 @@
 [
   {
     "name": "posts",
-    "url": ""
+    "url": "/posts/"
   },
   {
     "name": "books",
-    "url": ""
+    "url": "/books/"
   },
   {
     "name": "wiki",
