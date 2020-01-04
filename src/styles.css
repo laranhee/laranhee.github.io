@@ -208,6 +208,11 @@
   font-size: 1.5rem;
 }
 
+/* 댓글 플랫폼 */
+.utterances {
+  margin-left: 0;
+}
+
 @tailwind components;
 
 @tailwind utilities;
