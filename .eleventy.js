@@ -6,6 +6,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/styles.css');
   execSync('npx tailwind build ./src/styles.css -o ./_site/styles.css');
 
+  // favicon
+  eleventyConfig.addPassthroughCopy({
+    'src/favicon.ico': 'favicon.ico'
+  });
+
   return {
     dir: {
       input: 'src',
