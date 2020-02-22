@@ -1,25 +1,15 @@
 {
-  "name": "ranheelog",
-  "description": "https://laranhee.github.io",
   "scripts": {
     "serve": "DEBUG=Eleventy* eleventy --serve",
-    "build": "DEBUG=Eleventy* eleventy",
-    "deploy": "npm run build && gh-pages -d _site -b master"
-  },
-  "author": {
-    "name": "laranhee",
-    "email": "laranhee@gmail.com",
-    "url": "https://github.com/laranhee"
+    "build": "DEBUG=Eleventy* eleventy"
   },
   "license": "MIT",
-  "dependencies": {
-    "tailwindcss": "^1.1.4"
-  },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0-beta.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0"
   },
   "husky": {
     "pre-commit": "lint-staged"
